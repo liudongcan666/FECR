@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-```bash
+
 ###  Training
 
 1. Prepare data
@@ -13,7 +13,7 @@
 
 3. Start training
    Run the following commands to train the model. A GPU with at least 16GB memory is recommended.
-
+```bash
    # Training on Occluded-Duke
    python train.py --config_file configs/OCC_Duke/vit_transreid_stride.yml MODEL.DEVICE_ID "('2')"
 
@@ -25,7 +25,7 @@
 
    # Training on DukeMTMC-reID
    python train.py --config_file configs/DukeMTMC/vit_transreid_stride.yml MODEL.DEVICE_ID "('2')"
-
+```bash
 ###  Testing
 
 1. Download checkpoints
